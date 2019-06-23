@@ -1,3 +1,13 @@
 body {
     background: thistle;
 }
+
+div {
+    border: 1px solid black;
+    background: white;
+    width: 200px;
+}
+
+button {
+    margin: 20px;
+}
