@@ -1,3 +1,95 @@
 body {
-    background: thistle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    color: 37384a;
+    list-style-type: none;
+    height: 8%;
+    display: flex;
+}
+.menu li {
+    display: inline;
+    list-style-type: none;
+    margin: 5px;
+    padding: 20px;
+    align-items: center;
+}
+
+#the-team {
+    text-decoration: underline;
+}
+.logo {
+    background-image: url("img/logo.PNG");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.content {
+    height: 90%;
+    background-color: #ef7d73;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.title {
+    font-size: 35px; 
+}
+
+.subtitle {
+    width: 40%;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.services {
+    width: 100%;
+}
+
+.service-wrapper {
+    display: inline-block;
+   /* width:v 80h; */
+    margin: 10px;
+    text-align: center;
+}
+
+.image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.s1.image {
+    background-color: #37384a;
+    background-image: url("img/dialog-window.png");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.s2.image {
+    background-color: #e85a59;
+    background-image: url("img/pencil-n-earser.png");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.s3.image {
+    background-color: #7c9786;
+    background-image: url("img/envalope.png");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.service-wrapper ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
 }
