@@ -8,9 +8,15 @@ class App extends React.Component {
     }
 }
 class Button extends React.Component {
+    print() {
+        document.getElementById("show").innerHTML = "Hello World";
+    }
     render() {
         return (
-            <button>Click</button>
+            <div>
+            <button onClick={this.print}>Click</button>
+            <div id="show"></div>
+            </div>
         );
         
     }

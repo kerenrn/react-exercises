@@ -1,13 +1,6 @@
 class App extends React.Component {
     render() {
         return (
-            <Quiz />
-        );
-    }
-}
-class Quiz extends React.Component {
-    render() {
-        return (
             <div className="quiz">
                 <QuizTitle/>
                 <Q1 />

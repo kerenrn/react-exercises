@@ -1,3 +1,9 @@
 body {
-    background: thistle;
+    background:#1b2433;
+}
+
+.today {
+    background: #00e1ff;
+    height: 400px;
+    border-bottom: 1px soli white;
 }
