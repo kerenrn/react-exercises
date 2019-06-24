@@ -70,8 +70,10 @@ class Q2Input extends React.Component {
 }
 
 
-
+function render() {
 ReactDOM.render(
     <App />,
     document.getElementById("root")
 );
+}
+render();
