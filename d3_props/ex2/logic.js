@@ -1,16 +1,12 @@
 class Box extends React.Component {
     render() {
         let mood = this.props.mood;
-        // let text = this.props.text;
         return (
             <div className={mood}>{mood}</div>
         );
 
     }
 }
-
-
-
 
 class App extends React.Component {
     render() {
@@ -24,6 +20,7 @@ class App extends React.Component {
         );
     }
 }
+
 function render() {
     ReactDOM.render(
         <App />,
