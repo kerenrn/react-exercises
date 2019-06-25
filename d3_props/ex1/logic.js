@@ -1,7 +1,5 @@
 class Title extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+   
     render() {
         var style = {
             "fontFamily": this.props.font

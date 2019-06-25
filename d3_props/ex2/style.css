@@ -1,3 +1,19 @@
-body {
-    background: thistle;
+div {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+}
+
+.fresh {
+    background: lightgreen;
+}
+.calm {
+    background: skyblue;
+}
+.adventurous {
+    background: pink;
+}
+.happy {
+    background: lavender;
 }
