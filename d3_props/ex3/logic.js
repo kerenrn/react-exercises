@@ -1,6 +1,6 @@
 class Box extends React.Component {
     render() {
-        let color = this.props.color;
+        
 
         return (
             <div className={this.props.color}>{this.props.children}</div>

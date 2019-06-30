@@ -1,3 +1,51 @@
 body {
-    background: thistle;
+    background: #8695a8;
+}
+
+.step {
+    display: inline-block;
+    background: rgb(246, 248, 250);
+    width: 20%;
+    height: 75%;
+    margin: 12px;
+    border-radius: 1.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    text-align: center;
+    color: #4c5563;
+    
+}
+
+.photo {
+    width: 180px;
+    height: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#s1 .photo {
+    background-image: url("img/s1.png");
+    /* border: 1px solid magenta; */
+}
+#s2 .photo {
+    background-image: url("img/s2.png");
+}
+#s2 .photo {
+    background-image: url("img/s2.png");
+}
+
+
+.breadcrumb {
+    display: inline-block;
+    margin: 5px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: 0.2px solid darkblue;
+}
+
+.breadcrumb.on {
+    background: darkblue;
 }

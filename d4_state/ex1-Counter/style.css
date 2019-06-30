@@ -1,3 +1,7 @@
 body {
     background: thistle;
 }
+
+span {
+    margin: 10px;
+}
