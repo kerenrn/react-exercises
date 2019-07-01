@@ -1,0 +1,30 @@
+div {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.lightgreen {
+    background: lightgreen;
+}
+
+.box.lightgreen {
+    width: 500px;
+}
+.skyblue {
+    background: skyblue;
+}
+.pink {
+    background: pink;
+}
+.lavender {
+    background: lavender;
+}
+.box.lavender {
+    height: 80px;
+    margin-bottom: 30px;
+    width: 60%;
+}
+.frame {
+    width: 550px;
+    border: 1px solid black;
+}

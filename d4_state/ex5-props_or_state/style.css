@@ -1,0 +1,24 @@
+body {
+    background: thistle;
+}
+
+.container {
+    width: 150px;
+    height: 200px;
+    background: white;
+}
+.box {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    margin: 10px;
+}
+
+.box.hidden {
+    visibility: hidden;
+}
+
+button {
+    margin: 10px;
+}
