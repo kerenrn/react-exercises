@@ -1,0 +1,12 @@
+body {
+    background: thistle;
+}
+
+select {
+    display: block;
+    width: 100px;
+}
+
+.dropdown.container {
+    margin: 10px;
+}
