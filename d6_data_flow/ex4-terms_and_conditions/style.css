@@ -1,0 +1,11 @@
+body {
+    background: thistle;
+}
+
+button {
+    display: block;
+}
+
+.disabled {
+    opacity: 0.5;
+}
