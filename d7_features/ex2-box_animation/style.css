@@ -1,0 +1,26 @@
+body {
+    background: thistle;
+}
+
+.box {
+    background: hotpink;
+    height: 100px;
+    width: 0;
+}
+
+.box.pop {
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {width: 0;}
+    to {width: 100px;}
+} 
+  /* Standard syntax */
+  @keyframes example {
+    from {width: 0;}
+    to {width: 100px;}
+}
